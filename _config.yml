@@ -33,6 +33,18 @@ date_format: "%-d %B %Y"
 # Google Analytics
 google_analytics: G-KFX2317X3Y
 
+# Collections
+collections:
+  artists:
+    output: true
+    permalink: /:collection/:title
+  artworks:
+    output: true
+    permalink: /:collection/:title
+  exhibitions:
+    output: true
+    permalink: /:collection/:title
+
 # Sibling sites
 sites:
   "Acta Machina":

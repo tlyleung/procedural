@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<div class="px-4 pt-4 text-2xl sm:px-8 sm:pt-8 sm:text-4xl">
+  <h1>Artists</h1>
+</div>
+
+{%- assign artists = site.artists -%} {%- if artists.size > 0 -%}
+<div class="grid grid-cols-1 gap-8 p-4 text-sm/5 sm:grid-cols-4 sm:p-8 sm:text-base/6">
+  {%- for artist in artists -%} {% include artist.html artist=artist %} {%- endfor -%}
+</div>
+{%- endif -%}

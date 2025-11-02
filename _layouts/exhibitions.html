@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+<div class="px-4 pt-4 text-2xl sm:px-8 sm:pt-8 sm:text-4xl">
+  <h1>Exhibitions</h1>
+</div>
+
+{%- assign exhibitions = site.exhibitions -%} {%- if exhibitions.size > 0 -%}
+
+<div class="grid grid-cols-1 gap-8 p-4 text-sm/5 sm:grid-cols-2 sm:p-8 sm:text-base/6">
+  {%- for exhibition in exhibitions -%} {% include exhibition.html exhibition=exhibition %} {%- endfor -%}
+</div>
+{%- endif -%}
