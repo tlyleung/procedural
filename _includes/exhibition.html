@@ -9,6 +9,6 @@
   </div>
   <h2>{{ exhibition.title | escape }}</h2>
   <p class="text-zinc-500 dark:text-zinc-400">
-    {{ exhibition.start_date | date: "%-d %B %Y" }} – {{ exhibition.end_date | date: "%-d %B %Y" }}
+    {{ exhibition.start_date | date: site.date_format }} – {{ exhibition.end_date | date: site.date_format }}
   </p>
 </a>
