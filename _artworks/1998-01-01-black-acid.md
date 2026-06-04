@@ -5,6 +5,7 @@ title: Black Acid
 medium: Acrylic on wood
 dimensions: 19 ⅝ × 15 ¾ inches (50 × 40 cm)
 p5: true
+image: /assets/images/artworks/black-acid/gallery-sm.jpg
 ---
 
 <script>

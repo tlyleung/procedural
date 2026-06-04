@@ -5,6 +5,7 @@ title: Divisions
 medium: Acrylic glass, paint and roach
 dimensions: 19 ⅝ × 15 ¾ inches (50 × 40 cm)
 p5: true
+image: /assets/images/artworks/divisions/gallery-sm.jpg
 ---
 
 <script>

@@ -5,6 +5,7 @@ title: Flowers of Hope
 medium: Acrylic on canvas
 dimensions: 15 ¾ × 19 ⅝ inches (40 × 50 cm)
 p5: true
+image: /assets/images/artworks/flowers-of-hope/gallery-sm.jpg
 ---
 
 <script>

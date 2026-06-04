@@ -5,6 +5,7 @@ title: Bye Bye Brazil
 medium: Household gloss paint on canvas
 dimensions: 15 ¾ × 19 ⅝ inches (40 × 50 cm)
 p5: true
+image: /assets/images/artworks/bye-bye-brazil/gallery-sm.jpg
 ---
 
 <script>
