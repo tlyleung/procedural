@@ -71,14 +71,4 @@ function sketch() {
 
   image(pg, 0, 0, WIDTH, HEIGHT);
 }
-
-function drawQuadrantArc(i, j, diameter, radius, gutter, start, stop) {
-  pg.arc(i + gutter, j + gutter, diameter - 10, diameter - 10, start, stop);
-  pg.arc(i + gutter, j + gutter, diameter + 10, diameter + 10, start + 0.078 * PI, stop - 0.078 * PI);
-
-  pg.line(i + gutter, j + gutter, i + gutter, j + gutter + radius - 5);
-  pg.line(i + gutter, j + gutter, i + gutter + radius - 5, j + gutter);
-  pg.line(i + 100 - gutter, j + 100 - gutter, i + 100 - gutter, j + 100 - gutter - 69.98);
-  pg.line(i + 100 - gutter, j + 100 - gutter, i + 100 - gutter - 69.98, j + 100 - gutter);
-}
 </script>
